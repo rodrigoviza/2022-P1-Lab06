@@ -57,6 +57,13 @@ public class Lab06vst extends Applet
 
         // Draw 3-D Bo
         g.fillRect(550,350,100,100);
+        g.fillRect(600,400,100,100);
+        Polygon penta = new Polygon();
+        penta.addPoint(550,350);
+        penta.addPoint(600,400);
+        penta.addPoint(600,500);
+        penta.addPoint(550,450);
+        g.drawPolygon(penta);
 
 
     }
