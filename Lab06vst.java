@@ -63,6 +63,10 @@ public class Lab06vst extends Applet
         penta.addPoint(600,400);
         penta.addPoint(600,500);
         penta.addPoint(550,450);
+        int red = rand.nextInt(250);
+        int blue = rand.nextInt(250);
+        int green = rand.nextInt(250);
+        g.setColor(new Color(red, blue, green));
         g.drawPolygon(penta);
 
 
